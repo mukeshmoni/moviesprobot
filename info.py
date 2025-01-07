@@ -25,7 +25,7 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/CinemaMovie_Gro
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001770039008').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vkyvk9515:vkyvk9515@cluster0.3z7tbya.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://architect2002:architect2002@cluster0.ccinu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "BillaMovie_bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', '( @𝐼𝑡𝑧_𝑚𝑜𝑣𝑖𝑒_𝑡𝑖𝑚𝑒_2𝑘 𝑓𝑎𝑚𝑖𝑙𝑦')
 #---------------------------------------------------------------
