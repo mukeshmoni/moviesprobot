@@ -27,18 +27,18 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vkyvk9515:vkyvk9515@cluster0.3z7tbya.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "BillaMovie_bot")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', '( @𝐼𝑡𝑧_𝑚𝑜𝑣𝑖𝑒_𝑡𝑖𝑚𝑒_2𝑘 ) 𝑓𝑎𝑚𝑖𝑙𝑦')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', '( @𝐼𝑡𝑧_𝑚𝑜𝑣𝑖𝑒_𝑡𝑖𝑚𝑒_2𝑘 𝑓𝑎𝑚𝑖𝑙𝑦')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', 'https://t.me/CinemaMovies_S'))  
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','https://t.me/CinemaMovies_S'))
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','https://t.me/CinemaMovies_S'))
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', "https://t.me/CinemaMovies_S"))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', "1883190195"))  
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','1883190195'))
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','1883190195'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', "1883190195"))
 auth_channel = environ.get('AUTH_CHANNEL', 'https://t.me/CinemaMovies_S')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 'https://t.me/CinemaMovie_Group'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002382448798'))
 request_channel = environ.get('REQUEST_CHANNEL', 'https://t.me/CinemaMovies_S')
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', 'https://t.me/CinemaMovies_S'))
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '1883190195'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/CinemaMovie_Group') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
