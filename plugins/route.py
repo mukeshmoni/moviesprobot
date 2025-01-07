@@ -6,12 +6,12 @@ import secrets
 import time
 import mimetypes
 from aiohttp.http_exceptions import BadStatusLine
-from Jisshu.bot import multi_clients, work_loads, JisshuBot
-from Jisshu.server.exceptions import FIleNotFound, InvalidHash
-from Jisshu import StartTime, __version__
-from Jisshu.util.custom_dl import ByteStreamer
-from Jisshu.util.time_format import get_readable_time
-from Jisshu.util.render_template import render_page
+from Keerthu.bot import multi_clients, work_loads, KeerthuBot
+from Keerthu.server.exceptions import FIleNotFound, InvalidHash
+from Keerthu import StartTime, __version__
+from Keerthu.util.custom_dl import ByteStreamer
+from Keerthu.util.time_format import get_readable_time
+from Keerthu.util.render_template import render_page
 from info import *
 
 

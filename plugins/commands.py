@@ -125,14 +125,14 @@ async def start(client:Client, message):
         msg, _, impression = await mdb.get_advirtisment()
         user = await db.get_user(message.from_user.id)
         seen_ads = user.get("seen_ads", False)
-        JISSHU_ADS_LINK = await db.jisshu_get_ads_link()
+        Keerthu_ADS_LINK = await db.Keerthu_get_ads_link()
         buttons = [[
                     InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         if msg:
             await message.reply_photo(
-                photo=JISSHU_ADS_LINK if JISSHU_ADS_LINK else URL,
+                photo=Keerthu_ADS_LINK if Keerthu_ADS_LINK else URL,
                 caption=msg,
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
@@ -168,7 +168,7 @@ async def start(client:Client, message):
         await client.send_message(LOG_CHANNEL, script.NEW_USER_TXT.format(temp.B_LINK, message.from_user.id, message.from_user.mention))
         try: 
             refData = message.command[1]
-            if refData and refData.split("-", 1)[0] == "Jisshu":
+            if refData and refData.split("-", 1)[0] == "Keerthu":
                 Fullref = refData.split("-", 1)
                 refUserId = int(Fullref[1])
                 await db.update_point(refUserId)

@@ -17,7 +17,7 @@ class Database:
         self.req = mydb.requests
         self.mGrp = mydb.mGrp
         self.pmMode = mydb.pmMode
-        self.jisshu_ads_link = mydb.jisshu_ads_link
+        self.Keerthu_ads_link = mydb.Keerthu_ads_link
         self.grp_and_ids = fsubs.grp_and_ids
         self.movies_update_channel = mydb.movies_update_channel
         self.botcol = mydb.botcol
@@ -342,19 +342,19 @@ class Database:
         user_data = {"id": user_id, "expiry_time": expiry_time, "has_free_trial": True}
         await self.users.update_one({"id": user_id}, {"$set": user_data}, upsert=True)
             
-     # JISSHU BOTS = @IM_JISSHU
-    async def jisshu_set_ads_link(self,link):
-        await self.jisshu_ads_link.update_one({} , {'$set': {'link': link}} , upsert=True)
-    async def jisshu_get_ads_link(self):
-        link = await self.jisshu_ads_link.find_one({})
+     # Keerthu BOTS = @IM_Keerthu
+    async def Keerthu_set_ads_link(self,link):
+        await self.Keerthu_ads_link.update_one({} , {'$set': {'link': link}} , upsert=True)
+    async def Keerthu_get_ads_link(self):
+        link = await self.Keerthu_ads_link.find_one({})
         if link is not None:
             return link.get("link")
         else:
             return None
             
-    async def jisshu_del_ads_link(self):
+    async def Keerthu_del_ads_link(self):
         try: 
-            isDeleted = await self.jisshu_ads_link.delete_one({})
+            isDeleted = await self.Keerthu_ads_link.delete_one({})
             if isDeleted.deleted_count > 0:
                 return True
             else:

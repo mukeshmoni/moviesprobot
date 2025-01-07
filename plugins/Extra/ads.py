@@ -11,7 +11,7 @@ async def set_ads(client, message):
     try:
         command_args = message.text.split(maxsplit=1)[1]
         if '#' not in command_args or len(command_args.split('#')) < 3:
-            await message.reply_text(f"Usage: /set_ads {{ads name}}#{{time}}#{{photo URL}} <a href=https://t.me/Jisshu_developer/9>Explain</a>")
+            await message.reply_text(f"Usage: /set_ads {{ads name}}#{{time}}#{{photo URL}} <a href=https://t.me/Keerthu_developer/9>Explain</a>")
             return
 
         ads_name, duration_or_impression, url = command_args.split('#', 2)
@@ -57,7 +57,7 @@ async def set_ads(client, message):
 
        
         await mdb.update_advirtisment(reply.text, f"{ads_name}", expiry_date, impression_count)
-        await db.jisshu_set_ads_link(url)
+        await db.Keerthu_set_ads_link(url)
 
         await asyncio.sleep(3)
         _, name, _ = await mdb.get_advirtisment()
@@ -92,9 +92,9 @@ async def del_ads(client, message):
     try:
         await mdb.update_advirtisment()
         
-        current_link = await db.jisshu_get_ads_link()
+        current_link = await db.Keerthu_get_ads_link()
         if current_link:
-            is_deleted = await db.jisshu_del_ads_link()
+            is_deleted = await db.Keerthu_del_ads_link()
             if is_deleted:
                 await message.reply(f"Successfully deleted advertisement and ads photo link: {current_link}!")
             else:

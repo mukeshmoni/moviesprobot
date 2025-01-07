@@ -1,15 +1,15 @@
 <p align="center">
-<!--   <img src="https://i.ibb.co/qpxpGmC/image.jpg" alt="Jisshu-Auto-filter">
+<!--   <img src="https://i.ibb.co/qpxpGmC/image.jpg" alt="Keerthu-Auto-filter">
 </p> -->
 <h1 align="center">
   <a href="https://telegram.me/mukeshmoni">Movie/Auto Filter Bot</a>
 </h1>
-<img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
+<img src="https://cdn.jsdelivr.net/gh/Keerthubot/Keerthubot/resources/hr.gif"/>
 
 ## **𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠**
 
 `/commands` Enter this command inside the bot and all the commands will be set automatically.
-<img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
+<img src="https://cdn.jsdelivr.net/gh/Keerthubot/Keerthubot/resources/hr.gif"/>
 
 ## **Futures**
 
@@ -60,7 +60,7 @@
 - [x] Set ads
 - [x] 𝐴𝑛𝑑 𝑀𝑜𝑟𝑒...
 </details>
-<!-- <img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/> -->
+<!-- <img src="https://cdn.jsdelivr.net/gh/Keerthubot/Keerthubot/resources/hr.gif"/> -->
 
 ## Variables
 
@@ -74,13 +74,13 @@
 - `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
 - `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com).
 - `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
-  <img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
+  <img src="https://cdn.jsdelivr.net/gh/Keerthubot/Keerthubot/resources/hr.gif"/>
 
-<img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
+<img src="https://cdn.jsdelivr.net/gh/Keerthubot/Keerthubot/resources/hr.gif"/>
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Jisshubot/Jisshu-filter-bot">
+<a href="https://heroku.com/deploy?template=https://github.com/Keerthubot/Keerthu-filter-bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
 </a>
 </p>
@@ -92,7 +92,7 @@
 <br>
 <br>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Jisshubots/Jisshu-filter-bot&branch=main&name=Jisshu-filter-bot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Keerthubots/Keerthu-filter-bot&branch=main&name=Keerthu-filter-bot)
 
 </details>
 
@@ -120,7 +120,7 @@ Use these settings when adding a monitor:</b>
 <b>Click on the below button to deploy directly to render ↓</b>
 <br>
 <br>
-<a href="https://render.com/deploy?repo=https://github.com/Jisshubots/Jisshu-filter-bot/tree/main">
+<a href="https://render.com/deploy?repo=https://github.com/Keerthubots/Keerthu-filter-bot/tree/main">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 </details>
@@ -128,7 +128,7 @@ Use these settings when adding a monitor:</b>
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Jisshubot/Jisshu-filter-bot
+git clone https://github.com/Keerthubot/Keerthu-filter-bot
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -137,14 +137,8 @@ python3 bot.py
 </p>
 </details>
 
-<img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
+<img src="https://cdn.jsdelivr.net/gh/Keerthubot/Keerthubot/resources/hr.gif"/>
 
 ## **Thanks to**
 
-- <b>Thanks To [Zishan Khan](https://t.me/JISSHU_BOTS) To Modify And Add Amazing Feature In The Repo
-- Thanks To [biisal](https://github.com/biisal/biisal-filter-bot) For Base Repo
-- Thanks To [Ꭺɴᴏɴʏᴍᴏᴜꜱ](https://t.me/TG_Anonymous_Official) To refresh Future Code and Update premium future</b>
-- Thanks To [Zoro](https://t.me/JOYBOY_ZORO) Your ideas have been a huge help in improving this project. Thanks for your valuable input!
-- Thanks To [ɪᴛ'ꜱ ʟᴜғғʏ](https://t.me/CoderluffyTG) For fixing key errors and making the bot better. Your help has been truly appreciated!
-- Thanks To All Everyone In This Journey
-  <img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
+- <b>Thanks To [Mukesh Moni](https://t.me/KingofAtttitude) To Modify And Add Amazing Feature In The Repo
